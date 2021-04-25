@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input,
+select {
+    width: 100%;
+    padding: 10px;
+}
+input[type="submit"] {
+    margin-top: 30px;
+}
+label {
+    margin-top: 50px;
+    font-size: large;
+    font-weight: 600;
+}
+th,
+td {
+    padding: 5px 5px;
+    border: 2px solid;
+}
+table {
+    margin-top: 50px;
+}
+.buttons {
+    margin-top: 20px;
+}

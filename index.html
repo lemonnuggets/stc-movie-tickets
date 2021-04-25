@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+        <title>STC Theatre</title>
+    </head>
+    <body>
+        <form action="/index.html">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="movie">Movie</label>
+            <select name="movie" id="movie"></select>
+            <label for="type">Type</label>
+            <select name="type" id="type"></select>
+            <input type="submit" />
+        </form>
+        <table>
+            <tr>
+                <th>Customer Name</th>
+                <th>Movie Name</th>
+                <th>Seat Type</th>
+                <th>Price</th>
+            </tr>
+            <tr class="footer-row">
+                <th></th>
+                <th></th>
+                <th>Total</th>
+                <td class="total">0</td>
+            </tr>
+        </table>
+    </body>
+</html>
